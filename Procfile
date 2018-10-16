@@ -1,2 +1,3 @@
 
-web : gunicorn --bind 0.0.0.0:8000 ankit-djapp.wsgi --log-file -
+
+web: python djapp/manage.py collectstatic --noinput; bin/gunicorn_django --workers=4 --bind=0.0.0.0:$PORT djapp/settings.py 

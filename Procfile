@@ -1,3 +1,3 @@
 
 
-web: python manage.py collectstatic --noinput; gunicorn --bind=0.0.0.0:$PORT djapp/settings.py 
+web: gunicorn djapp.wsgi --pythonpath djapp --log-file - 

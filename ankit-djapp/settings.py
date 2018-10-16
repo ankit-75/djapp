@@ -22,6 +22,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '0jx%547f_)@9xjaz1fbvj)r3+$g^woz6^6j&uw7f5^f+$vqiz3'
 
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 

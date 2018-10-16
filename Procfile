@@ -1,3 +1,3 @@
 
 
-web: gunicorn djapp.wsgi --pythonpath djapp --log-file - 
+web: gunicorn djapp.wsgi --pythonpath app --log-file - 

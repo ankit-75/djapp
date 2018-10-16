@@ -1,3 +1,3 @@
 
 
-web: gunicorn ankit-djapp.wsgi --pythonpath ankit-djapp --log-file - 
+web: gunicorn ankit-djapp.wsgi

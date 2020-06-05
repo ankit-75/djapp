@@ -17,7 +17,7 @@ Click==7.0
 constantly==15.1.0
 daphne==2.2.2
 dj-static==0.0.6
-Django==2.1.2
+Django==2.2.13
 django-cors-headers==2.4.0
 django-haystack==2.8.1
 django-oauth-toolkit==1.2.0

@@ -6,7 +6,7 @@ asgiref==2.3.2
 async-timeout==3.0.1
 asyncio==3.4.3
 attrs==18.2.0
-autobahn==18.9.2
+autobahn==20.12.3
 Automat==0.7.0
 betterpath==0.2.2
 certifi==2018.10.15

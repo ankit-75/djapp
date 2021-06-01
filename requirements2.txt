@@ -36,6 +36,6 @@ requests==2.19.1
 six==1.11.0
 Twisted==18.9.0
 txaio==18.8.1
-urllib3==1.23
+urllib3==1.26.5
 vcversioner==2.16.0.0
 zope.interface==4.5.0
